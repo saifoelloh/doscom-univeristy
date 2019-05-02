@@ -1,0 +1,174 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "name": "Web Dasar",
+      "schedules": [
+        {
+          "about": "Pertemuan 1",
+          "lesson": "HTML, CSS, JS",
+          "place": "Udinus Gd. D.2.G",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Pertemuan 2",
+          "lesson": "HTML, CSS, JS",
+          "place": "Udinus Gd. D.2.G",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Tugas 1",
+          "lesson": "HTML, CSS, JS",
+          "place": "Udinus Gd. D.2.G",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Tugas Akhir",
+          "lesson": "HTML, CSS, JS",
+          "place": "Udinus Gd. D.2.G",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Web Lanjut",
+      "schedules": [
+        {
+          "about": "Pertemuan 1",
+          "lesson": "PHP, MYSQL, CODE IGNITER",
+          "place": "Udinus Gd. D.2.H",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Pertemuan 2",
+          "lesson": "PHP, MYSQL, CODE IGNITER",
+          "place": "Udinus Gd. D.2.H",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Tugas 1",
+          "lesson": "PHP, MYSQL, CODE IGNITER",
+          "place": "Udinus Gd. D.2.H",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Tugas Akhir",
+          "lesson": "PHP, MYSQL, CODE IGNITER",
+          "place": "Udinus Gd. D.2.H",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mobile App",
+      "schedules": [
+        {
+          "about": "Pertemuan 1",
+          "lesson": "JAVA, XML",
+          "place": "Udinus Gd. D.2.A",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Pertemuan 2",
+          "lesson": "JAVA, XML",
+          "place": "Udinus Gd. D.2.A",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Tugas 1",
+          "lesson": "JAVA, XML",
+          "place": "Udinus Gd. D.2.A",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Tugas Akhir",
+          "lesson": "JAVA, XML",
+          "place": "Udinus Gd. D.2.A",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Jaringan",
+      "schedules": [
+        {
+          "about": "Pertemuan 1",
+          "lesson": "SUBNETTING, CISCO",
+          "place": "Udinus Gd. D.3.L",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Pertemuan 2",
+          "lesson": "SUBNETTING, CISCO",
+          "place": "Udinus Gd. D.3.L",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Tugas 1",
+          "lesson": "SUBNETTING, CISCO",
+          "place": "Udinus Gd. D.3.L",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Tugas Akhir",
+          "lesson": "SUBNETTING, CISCO",
+          "place": "Udinus Gd. D.3.L",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Game",
+      "schedules": [
+        {
+          "about": "Pertemuan 1",
+          "lesson": "MODELING, REMASTERING",
+          "place": "Udinus Gd. D.3.L",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Pertemuan 2",
+          "lesson": "MODELING, REMASTERING",
+          "place": "Udinus Gd. D.3.L",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Tugas 1",
+          "lesson": "MODELING, REMASTERING",
+          "place": "Udinus Gd. D.3.L",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        },
+        {
+          "about": "Tugas Akhir",
+          "lesson": "MODELING, REMASTERING",
+          "place": "Udinus Gd. D.3.L",
+          "date": "Sabtu, 11 Mei 2019",
+          "time": "18:30 - 21:00"
+        }
+      ]
+    }
+  ]
+}

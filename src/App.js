@@ -1,26 +1,99 @@
+import * as axios from 'axios';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {
+  faClock,
+  faMapMarkerAlt,
+  faWallet,
+} from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Code } from 'react-content-loader';
+import { Container } from 'reactstrap';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import {
+  About,
+  Header,
+  Kelas,
+  Registration,
+  Schedule,
+  Tentors,
+  Testimoni,
+} from './containers';
+import { Aux } from './hoc';
+
+library.add(faWallet, faClock, faMapMarkerAlt);
+
+export default class App extends React.Component {
+  state = {
+    loading: true,
+    data: [],
+    arr: [
+      {
+        about:
+          'Mempelajari alur dari sebuah web, serta membuat web sederhana dengan HTML, CSS, & Javascript.',
+      },
+      {
+        about:
+          'Mempelajari alur dari sebuah web, serta membuat web sederhana dengan HTML, CSS, & Javascript.',
+      },
+      {
+        about:
+          'Mempelajari alur dari sebuah web, serta membuat web sederhana dengan HTML, CSS, & Javascript.',
+      },
+      {
+        about:
+          'Mempelajari alur dari sebuah web, serta membuat web sederhana dengan HTML, CSS, & Javascript.',
+      },
+      {
+        about:
+          'Mempelajari alur dari sebuah web, serta membuat web sederhana dengan HTML, CSS, & Javascript.',
+      },
+    ],
+  };
+
+  getData = () => {
+    axios('http://35.198.253.82:3000/api/kelas')
+      .then((res) => {
+        this.setState({
+          loading: !this.state.loading,
+          data: res.data.map((value, idx) => {
+            return {
+              ...value,
+              about: this.state.arr[idx].about,
+            };
+          }),
+        });
+        console.log(this.state.data, 'ini hasil get dari api');
+      })
+      .catch((err) => {
+        console.error(err);
+      });
+  };
+
+  code = () => <Code />;
+
+  componentDidMount() {
+    this.getData();
+  }
+
+  render() {
+    return (
+      <div>
+        {this.state.loading ? (
+          <Container className="fullscreen py-5 d-flex justify-content-center align-items-center">
+            {this.code()}
+          </Container>
+        ) : (
+          <Aux>
+            <Header />
+            <Kelas data={this.state.data} />
+            <Tentors />
+            <About />
+            <Schedule />
+            <Testimoni />
+            <Registration data={this.state.data} />
+          </Aux>
+        )}
+      </div>
+    );
+  }
 }
-
-export default App;
