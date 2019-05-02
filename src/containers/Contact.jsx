@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   Card,
   CardBody,
@@ -13,12 +14,40 @@ export default class Contact extends React.Component {
   state = {
     arr: [
       {
-        photo: '',
-        name: '',
+        photo:
+          'http://mahasiswa.dinus.ac.id/images/foto/A/A11/2016/A11.2016.09407.jpg',
+        name: 'Kak Carissa',
         sosmed: [
           {
-            icon: '',
-            name: '',
+            icon: ['fab', 'telegram'],
+            value: '@Carisa23',
+          },
+          {
+            icon: ['fab', 'whatsapp'],
+            value: 'xxx',
+          },
+          {
+            icon: 'envelope',
+            value: 'carissa.huang88.ch',
+          },
+        ],
+      },
+      {
+        photo:
+          'http://mahasiswa.dinus.ac.id/images/foto/A/A11/2016/A11.2016.09392.jpg',
+        name: 'Kak Adin',
+        sosmed: [
+          {
+            icon: ['fab', 'telegram'],
+            value: '@maulanacomara',
+          },
+          {
+            icon: ['fab', 'whatsapp'],
+            value: 'xxx',
+          },
+          {
+            icon: 'envelope',
+            value: 'maulanacomara',
           },
         ],
       },
@@ -27,53 +56,22 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div>
-        <Container>
+      <div className="fs-100 bg-light">
+        <Container className="h-100 d-flex flex-column justify-content-center">
           <h2>
             <b>
               <u>Kontak</u>
             </b>
           </h2>
           <Row>
-            {this.state.arr.map((value, idx) => {
+            {this.state.arr.map((datum, idx) => {
               return (
                 <Col key={idx}>
                   <h3>
                     <b>Contact {idx + 1}</b>
                   </h3>
-                  <Card>
-                    <CardBody>
-                      <div className="my-2 d-flex justify-content-around align-items-center">
-                        <img
-                          className="rounded-circle border mx-3 square-3"
-                          src={value.photo}
-                          alt=""
-                        />
-                        <h3>
-                          <b>{value.name}</b>
-                        </h3>
-                      </div>
-                      <ListGroup>
-                        {value.sosmed.map((datum, id) => {
-                          return (
-                            <ListGroupItem
-                              key={id}
-                              className={id % 2 ? '' : 'bg-light'}>
-                              <div className="my-2 d-flex justify-content-around align-items-center">
-                                <img
-                                  className="rounded-circle border mx-3 square-3"
-                                  src={datum.icon}
-                                  alt=""
-                                />
-                                <h3>
-                                  <b>{datum.name}</b>
-                                </h3>
-                              </div>
-                            </ListGroupItem>
-                          );
-                        })}
-                      </ListGroup>
-                    </CardBody>
+                  <Card className="rounded-lg shadow w-75">
+                    <CardBody className="p-0" />
                   </Card>
                 </Col>
               );

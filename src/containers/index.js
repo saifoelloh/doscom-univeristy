@@ -5,5 +5,15 @@ import About from './About';
 import Schedule from './Schedule';
 import Testimoni from './Tesimoni';
 import Registration from './Registration';
+import Contact from './Contact';
 
-export { Header, Kelas, Tentors, About, Schedule, Testimoni, Registration };
+export {
+  Header,
+  Kelas,
+  Tentors,
+  About,
+  Schedule,
+  Testimoni,
+  Registration,
+  Contact,
+};

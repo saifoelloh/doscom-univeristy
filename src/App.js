@@ -4,7 +4,9 @@ import {
   faClock,
   faMapMarkerAlt,
   faWallet,
+  faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import { Code } from 'react-content-loader';
 import { Container } from 'reactstrap';
@@ -17,10 +19,11 @@ import {
   Schedule,
   Tentors,
   Testimoni,
+  Contact,
 } from './containers';
 import { Aux } from './hoc';
 
-library.add(faWallet, faClock, faMapMarkerAlt);
+library.add(faWallet, faClock, faMapMarkerAlt, faEnvelope, fab);
 
 export default class App extends React.Component {
   state = {
@@ -91,6 +94,7 @@ export default class App extends React.Component {
             <Schedule />
             <Testimoni />
             <Registration data={this.state.data} />
+            <Contact />
           </Aux>
         )}
       </div>

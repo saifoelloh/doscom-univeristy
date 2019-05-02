@@ -31,7 +31,7 @@ export default class About extends React.Component {
   render() {
     return (
       <div className="bg-light py-5 fullscreen">
-        <Container>
+        <Container className="h-100 d-flex flex-column justify-content-center">
           <h2 className="text-center mb-5">
             <b>
               <u>Waktu &amp; Tempat</u>
@@ -41,7 +41,7 @@ export default class About extends React.Component {
             <Col
               md="6"
               sm="12"
-              className="d-flex justify-content-end align-items-center">
+              className="mt-5 d-flex justify-content-end align-items-center">
               <ListGroup className="w-75">
                 {this.state.arr.map((value) => {
                   return (

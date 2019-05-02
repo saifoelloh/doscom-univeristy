@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
-import {Card, CardBody, CardText, CardTitle, Container} from 'reactstrap';
+import { Card, CardBody, CardText, CardTitle, Container } from 'reactstrap';
 
 export default class Tentors extends React.Component {
   state = {
@@ -62,7 +62,7 @@ export default class Tentors extends React.Component {
               <u>Pengajar</u>
             </b>
           </h2>
-          <Slider {...this.state.setting}>
+          <Slider className="mt-5" {...this.state.setting}>
             {this.state.arr.map((value) => {
               return (
                 <div key={value.id} className="d-flex justify-content-center">
@@ -70,7 +70,7 @@ export default class Tentors extends React.Component {
                     <CardBody className="py-5 px-3 d-flex flex-column justify-content-center align-items-center">
                       <div
                         className="bg-primary rounded-circle mb-4"
-                        style={{height: '7rem', width: '7rem'}}
+                        style={{ height: '7rem', width: '7rem' }}
                       />
                       <CardTitle>
                         <b>{value.name}</b>
