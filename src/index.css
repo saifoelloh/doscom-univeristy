@@ -30,7 +30,13 @@ code {
 
 .tutor {
   background-image: url('./assets/img/section-bg.jpg');
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-about {
+  background-image: url('./assets//img/lokasi-bg.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
 }
 

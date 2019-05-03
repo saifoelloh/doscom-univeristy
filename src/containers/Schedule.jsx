@@ -33,7 +33,7 @@ export default class Schedule extends React.Component {
 
   render() {
     return (
-      <div className="p-5">
+      <div className="p-5 bg-info">
         <Container className="h-100 d-flex flex-column justify-content-center align-items-center">
           <h2 className="text-center mb-5">
             <b>

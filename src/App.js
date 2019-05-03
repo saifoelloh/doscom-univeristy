@@ -56,6 +56,7 @@ export default class App extends React.Component {
   getData = () => {
     axios('http://35.198.253.82:3000/api/kelas')
       .then((res) => {
+        console.log(res);
         this.setState({
           loading: !this.state.loading,
           data: res.data.map((value, idx) => {
