@@ -54,6 +54,14 @@ code {
   height: 100vh;
 }
 
+.fs-90 {
+  height: 90vh;
+}
+
+.fs-80 {
+  height: 80vh;
+}
+
 .fs-75 {
   height: 75vh;
 }

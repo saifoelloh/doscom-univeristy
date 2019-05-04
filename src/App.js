@@ -20,6 +20,7 @@ import {
   Tentors,
   Testimoni,
   Contact,
+  Jejak,
 } from './containers';
 import { Aux } from './hoc';
 
@@ -96,6 +97,7 @@ export default class App extends React.Component {
             <Testimoni />
             <Registration data={this.state.data} />
             <Contact />
+            <Jejak />
           </Aux>
         )}
       </div>

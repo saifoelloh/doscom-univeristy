@@ -6,6 +6,7 @@ import Schedule from './Schedule';
 import Testimoni from './Tesimoni';
 import Registration from './Registration';
 import Contact from './Contact';
+import Jejak from './Jejak';
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   Testimoni,
   Registration,
   Contact,
+  Jejak,
 };
