@@ -19,7 +19,7 @@ export default class Contact extends React.Component {
           },
           {
             icon: ['fab', 'whatsapp'],
-            value: 'xxx',
+            value: '+6281225333530',
           },
           {
             icon: 'envelope',
@@ -37,7 +37,7 @@ export default class Contact extends React.Component {
           },
           {
             icon: ['fab', 'whatsapp'],
-            value: 'xxx',
+            value: '+6281249295933',
           },
           {
             icon: 'envelope',
@@ -50,7 +50,7 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div className="fs-100 bg-light">
+      <div className="fs-100 bg-contact">
         <Container className="h-100 d-flex flex-column justify-content-center">
           <h1 className="text-center mb-5">
             <b>

@@ -79,7 +79,7 @@ export default class Registration extends React.Component {
           </h2>
           <Form className="w-75 d-flex flex-column justify-content-center align-items-center">
             <Row className="w-100">
-              <Col>
+              <Col md="6">
                 <FormGroup>
                   <Label>Nama Lengkap</Label>
                   <Input
@@ -108,7 +108,7 @@ export default class Registration extends React.Component {
                   />
                 </FormGroup>
               </Col>
-              <Col>
+              <Col md="6">
                 <FormGroup>
                   <Label>Instansi</Label>
                   <Input

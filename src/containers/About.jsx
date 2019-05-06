@@ -9,6 +9,7 @@ import {
   ListGroupItem,
   Row,
 } from 'reactstrap';
+
 import { Aux } from '../hoc';
 
 export default class About extends React.Component {
@@ -36,13 +37,25 @@ export default class About extends React.Component {
         third: 'Lihat Peta',
       },
     ],
-    detail: <Pembayaran />,
+    pembayaran: [
+      {
+        metode: 'On The Spot',
+        icon: 'map-marker-alt',
+        items: ['bayar di camp Doscom', 'bayar di stand Doscom University'],
+      },
+      {
+        metode: 'Transfer',
+        icon: 'credit-card',
+        items: ['BRI - XXXX XXXX XXXX', 'BNI - XXXX XXXX XXXX'],
+      },
+    ],
+    detail: null,
   };
 
   handleClick = (id) => {
     let hasil;
     if (id === 0) {
-      hasil = <Pembayaran />;
+      hasil = <Pembayaran data={this.state.pembayaran} />;
     } else if (id === 1) {
       hasil = this.state.detail;
     } else if (id === 2) {
@@ -53,6 +66,12 @@ export default class About extends React.Component {
       detail: hasil,
     });
   };
+
+  componentDidMount() {
+    this.setState({
+      detail: <Pembayaran data={this.state.pembayaran} />,
+    });
+  }
 
   render() {
     return (
@@ -113,23 +132,25 @@ export default class About extends React.Component {
   }
 }
 
-function Pembayaran() {
+function Pembayaran(props) {
   return (
     <Aux>
-      <h4>
-        <b>On The Spot</b>
-      </h4>
-      <ul>
-        <li>bayar di-camp DOSCOM</li>
-        <li>bayar di-stand DOSCOM University</li>
-      </ul>
-      <h4>
-        <b>Transfer</b>
-      </h4>
-      <ul>
-        <li>BRI - XXX-XXXX-XXXX</li>
-        <li>MANDIRI - XXX-XXXX-XXXX</li>
-      </ul>
+      {props.data.map((datum, idx) => {
+        return (
+          <Aux key={idx}>
+            <h4>
+              <b>
+                <FontAwesomeIcon icon={datum.icon} size="lg" /> {datum.metode}
+              </b>
+            </h4>
+            <ul>
+              {datum.items.map((data, id) => {
+                return <li key={id}>{data}</li>;
+              })}
+            </ul>
+          </Aux>
+        );
+      })}
     </Aux>
   );
 }

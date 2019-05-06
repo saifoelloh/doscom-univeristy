@@ -57,6 +57,7 @@ export default class Jejak extends React.Component {
                         className="ml-3"
                         href={datum.link}
                         target="_blank"
+                        rel="noopener noreferrer"
                         key={idx}>
                         <FontAwesomeIcon icon={datum.icon} size="2x" />
                       </a>

@@ -1,30 +1,30 @@
 import * as axios from 'axios';
 import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import {
   faClock,
+  faCreditCard,
+  faEnvelope,
   faMapMarkerAlt,
   faWallet,
-  faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import { Code } from 'react-content-loader';
 import { Container } from 'reactstrap';
 
 import {
   About,
+  Contact,
   Header,
+  Jejak,
   Kelas,
   Registration,
   Schedule,
   Tentors,
-  Testimoni,
-  Contact,
-  Jejak,
 } from './containers';
 import { Aux } from './hoc';
 
-library.add(faWallet, faClock, faMapMarkerAlt, faEnvelope, fab);
+library.add(faWallet, faClock, faMapMarkerAlt, faEnvelope, fab, faCreditCard);
 
 export default class App extends React.Component {
   state = {
@@ -33,23 +33,22 @@ export default class App extends React.Component {
     arr: [
       {
         about:
-          'Mempelajari alur dari sebuah web, serta membuat web sederhana dengan HTML, CSS, & Javascript.',
+          'Mempelajari bagaimana cara membuat sebuah website menggunakan bahasa pemprograman python.',
       },
       {
         about:
-          'Mempelajari alur dari sebuah web, serta membuat web sederhana dengan HTML, CSS, & Javascript.',
+          'Mempelajari code igniter sebuah framework bahasa pemrograman php yang menggunakan konsep MVC.',
       },
       {
         about:
-          'Mempelajari alur dari sebuah web, serta membuat web sederhana dengan HTML, CSS, & Javascript.',
+          'Membuat aplikasi sederhana berbasis android yang dibuat menggunakan bahasa Java & XML.',
       },
       {
         about:
-          'Mempelajari alur dari sebuah web, serta membuat web sederhana dengan HTML, CSS, & Javascript.',
+          'Mempelajari alur dari sebuah jaringan, dan menerapkannya dalam sebuah simulasi virual.',
       },
       {
-        about:
-          'Mempelajari alur dari sebuah web, serta membuat web sederhana dengan HTML, CSS, & Javascript.',
+        about: 'Membuat sebuah game sederhana menggunakan Cocos Game Engine.',
       },
     ],
   };
@@ -94,7 +93,6 @@ export default class App extends React.Component {
             <Tentors />
             <About />
             <Schedule />
-            <Testimoni />
             <Registration data={this.state.data} />
             <Contact />
             <Jejak />

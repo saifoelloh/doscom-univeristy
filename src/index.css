@@ -46,6 +46,18 @@ code {
   background-repeat: no-repeat;
 }
 
+.bg-contact {
+  background-image: url('./assets/img/bg-contact.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-schedule {
+  background-image: url('./assets/img/bg-schedule.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .fullscreen {
   height: 100vh;
 }

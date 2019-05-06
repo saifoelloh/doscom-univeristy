@@ -33,9 +33,9 @@ export default class Schedule extends React.Component {
 
   render() {
     return (
-      <div className="p-5 bg-info">
+      <div className="p-5 bg-schedule">
         <Container className="h-100 d-flex flex-column justify-content-center align-items-center">
-          <h2 className="text-center mb-5">
+          <h2 className="text-center text-white mb-5">
             <b>
               <u>Jadwal</u>
             </b>
@@ -47,11 +47,11 @@ export default class Schedule extends React.Component {
                   <Button
                     key={value.id}
                     color="link"
-                    className="mx-3"
+                    className="mx-3 text-white"
                     onClick={() => {
                       this.handleClick(value.id);
                     }}>
-                    {value.name}
+                    <b>{value.name}</b>
                   </Button>
                 );
               })}
