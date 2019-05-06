@@ -70,7 +70,7 @@ export default class Registration extends React.Component {
 
   render() {
     return (
-      <div className="fs-100">
+      <div id="daftar" className="fs-100">
         <Container className="h-100 d-flex flex-column justify-content-center align-items-center">
           <h2 className="text-center mb-5">
             <b>

@@ -17,7 +17,7 @@ export default class Kelas extends React.Component {
 
   render() {
     return (
-      <div className="bg-kelas">
+      <div id="kelas" className="bg-kelas">
         <Container className="py-5">
           <h2 className="text-center mb-4">
             <b>

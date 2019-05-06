@@ -46,7 +46,7 @@ export default class About extends React.Component {
       {
         metode: 'Transfer',
         icon: 'credit-card',
-        items: ['BRI - XXXX XXXX XXXX', 'BNI - XXXX XXXX XXXX'],
+        items: ['Mandiri - 1360016257054', 'BRI - 667201024885534'],
       },
     ],
     detail: null,
@@ -75,7 +75,7 @@ export default class About extends React.Component {
 
   render() {
     return (
-      <div className="py-5 fullscreen bg-about">
+      <div id="tempat" className="py-5 fullscreen bg-about">
         <Container className="h-100 d-flex flex-column justify-content-center">
           <h1 className="text-center text-white mb-5">
             <b>
@@ -143,7 +143,7 @@ function Pembayaran(props) {
                 <FontAwesomeIcon icon={datum.icon} size="lg" /> {datum.metode}
               </b>
             </h4>
-            <ul>
+            <ul className="mb-3">
               {datum.items.map((data, id) => {
                 return <li key={id}>{data}</li>;
               })}

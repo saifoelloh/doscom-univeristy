@@ -67,7 +67,7 @@ export default class Tentors extends React.Component {
   };
   render() {
     return (
-      <div className="bg-light p-md-5 p-sm-4 tutor fullscreen">
+      <div id="pengajar" className="bg-light p-md-5 p-sm-4 tutor fullscreen">
         <Container className="h-100 d-flex flex-column justify-content-center">
           <h1 className="text-center text-white mb-5">
             <b>

@@ -21,14 +21,14 @@
         {
           "about": "Tugas 1",
           "lesson": "Simple MVC",
-          "place": "@home",
+          "place": "Udinus Gd. D.2.J",
           "date": "Sabtu, 11 Mei 2019",
           "time": "14:00 ~ 17:30"
         },
         {
           "about": "Tugas Akhir",
           "lesson": "CRUD Django",
-          "place": "@home",
+          "place": "Udinus Gd. D.2.J",
           "date": "Sabtu, 18 Mei 2019",
           "time": "14:00 ~ 17:30"
         }

@@ -50,7 +50,7 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div className="fs-100 bg-contact">
+      <div id="kontak" className="fs-100 bg-contact">
         <Container className="h-100 d-flex flex-column justify-content-center">
           <h1 className="text-center mb-5">
             <b>
