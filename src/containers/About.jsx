@@ -46,7 +46,10 @@ export default class About extends React.Component {
       {
         metode: 'Transfer',
         icon: 'credit-card',
-        items: ['Mandiri - 1360016257054', 'BRI - 667201024885534'],
+        items: [
+          'Mandiri - 1360016257054 (Maulana)',
+          'BRI - 667201024885534 (Fredo)',
+        ],
       },
     ],
     detail: null,

@@ -19,7 +19,7 @@ export default class Registration extends React.Component {
     email: '',
     telp: '',
     telegram: '',
-    kelas: '',
+    kelas: this.props.data[0]._id,
     instansi: '',
   };
 
@@ -57,7 +57,9 @@ export default class Registration extends React.Component {
           icon: 'success',
           text: 'please chek your email to comleate regisration',
         });
-        console.log(res);
+      })
+      .then(() => {
+        this.handleCancel();
       })
       .catch((err) => {
         swal({
@@ -65,6 +67,7 @@ export default class Registration extends React.Component {
           text: err.response.data.message,
         });
         console.error(err.response);
+        this.handleCancel();
       });
   };
 
@@ -86,6 +89,7 @@ export default class Registration extends React.Component {
                     type="text"
                     name="nama"
                     placeholder="Ketik disini"
+                    value={this.state.nama}
                     onChange={this.handleChange}
                   />
                 </FormGroup>
@@ -96,6 +100,7 @@ export default class Registration extends React.Component {
                       type="email"
                       name="email"
                       placeholder="example@mail.com"
+                      value={this.state.email}
                       onChange={this.handleChange}
                     />
                   </FormGroup>
@@ -104,6 +109,7 @@ export default class Registration extends React.Component {
                     type="text"
                     name="telp"
                     placeholder="628xxxxxxx"
+                    value={this.state.telp}
                     onChange={this.handleChange}
                   />
                 </FormGroup>
@@ -115,6 +121,7 @@ export default class Registration extends React.Component {
                     type="text"
                     name="instansi"
                     placeholder="komunitas xxxx"
+                    value={this.state.instansi}
                     onChange={this.handleChange}
                   />
                 </FormGroup>
@@ -125,6 +132,7 @@ export default class Registration extends React.Component {
                       type="text"
                       name="telegram"
                       placeholder="@username"
+                      value={this.state.telegram}
                       onChange={this.handleChange}
                     />
                   </FormGroup>
