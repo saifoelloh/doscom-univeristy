@@ -7,29 +7,29 @@
         {
           "about": "Pertemuan 1",
           "lesson": "Basic Python, MVC",
-          "place": "Udinus Gd. D.2.J",
-          "date": "Sabtu, 11 Mei 2019",
-          "time": "14:00 ~ 17:30"
+          "place": "Udinus Gd. D.2.N",
+          "date": "Jum'at, 24 Mei 2019",
+          "time": "18:30 ~ 21:00"
         },
         {
           "about": "Pertemuan 2",
-          "lesson": "CRUD Django",
-          "place": "Udinus Gd. D.2.J",
-          "date": "Sabtu, 18 Mei 2019",
+          "lesson": "Templating with Django",
+          "place": "Udinus Gd. D.2.N",
+          "date": "Sabtu, 25 Mei 2019",
           "time": "14:00 ~ 17:30"
         },
         {
           "about": "Tugas 1",
           "lesson": "Simple MVC",
-          "place": "Udinus Gd. D.2.J",
-          "date": "Sabtu, 11 Mei 2019",
-          "time": "14:00 ~ 17:30"
+          "place": "Udinus Gd. D.2.N",
+          "date": "Jum'at, 24 Mei 2019",
+          "time": "18:30 ~ 21:00"
         },
         {
           "about": "Tugas Akhir",
-          "lesson": "CRUD Django",
-          "place": "Udinus Gd. D.2.J",
-          "date": "Sabtu, 18 Mei 2019",
+          "lesson": "Templating with Django",
+          "place": "Udinus Gd. D.2.N",
+          "date": "Sabtu, 25 Mei 2019",
           "time": "14:00 ~ 17:30"
         }
       ]
@@ -40,30 +40,30 @@
       "schedules": [
         {
           "about": "Pertemuan 1",
-          "lesson": "Basic Code Igniter",
-          "place": "Udinus Gd. D.2.E",
-          "date": "Sabtu, 11 Mei 2019",
-          "time": "14:00 ~ 17:30"
+          "lesson": "Basic Laravel",
+          "place": "Udinus Gd. D.2.A",
+          "date": "Kamis, 23 Mei 2019",
+          "time": "18:30 ~ 21:00"
         },
         {
           "about": "Pertemuan 2",
-          "lesson": "Code Igniter",
-          "place": "Udinus Gd. D.2.E",
-          "date": "Sabtu, 18 Mei 2019",
+          "lesson": "CRUD Laravel",
+          "place": "Udinus Gd. D.2.L",
+          "date": "Sabtu, 25 Mei 2019",
           "time": "14:00 ~ 17:30"
         },
         {
           "about": "Tugas 1",
           "lesson": "Input Data",
-          "place": "Udinus Gd. D.2.E",
-          "date": "Sabtu, 11 Mei 2019",
-          "time": "14:00 ~ 17:30"
+          "place": "Udinus Gd. D.2.A",
+          "date": "Kamis, 23 Mei 2019",
+          "time": "18:30 ~ 21:00"
         },
         {
           "about": "Tugas Akhir",
           "lesson": "Membuat Web CRUD Sederhana",
-          "place": "Udinus Gd. D.2.E",
-          "date": "Sabtu, 18 Mei 2019",
+          "place": "Udinus Gd. D.2.L",
+          "date": "Sabtu, 25 Mei 2019",
           "time": "14:00 ~ 17:30"
         }
       ]
@@ -75,29 +75,29 @@
         {
           "about": "Pertemuan 1",
           "lesson": "XML, Basic JAVA",
-          "place": "Udinus Gd. D.2.K",
-          "date": "Sabtu, 11 Mei 2019",
-          "time": "14:00 ~ 17:30"
+          "place": "Udinus Gd. D.2.A",
+          "date": "Jum'at, 24 Mei 2019",
+          "time": "18:30 ~ 21:00"
         },
         {
           "about": "Pertemuan 2",
           "lesson": "User Input",
-          "place": "Udinus Gd. D.2.K",
-          "date": "Sabtu, 18 Mei 2019",
+          "place": "Udinus Gd. D.2.A",
+          "date": "Sabtu, 25 Mei 2019",
           "time": "14:00 ~ 17:30"
         },
         {
           "about": "Tugas 1",
           "lesson": "Membuat Layout Sendiri",
-          "place": "Udinus Gd. D.2.K",
-          "date": "Sabtu, 11 Mei 2019",
-          "time": "14:00 ~ 17:30"
+          "place": "Udinus Gd. D.2.A",
+          "date": "Jum'at, 24 Mei 2019",
+          "time": "18:30 ~ 21:00"
         },
         {
           "about": "Tugas Akhir",
           "lesson": "Membuat Aplikasi Sederhana",
-          "place": "Udinus Gd. D.2.K",
-          "date": "Sabtu, 18 Mei 2019",
+          "place": "Udinus Gd. D.2.A",
+          "date": "Sabtu, 25 Mei 2019",
           "time": "14:00 ~ 17:30"
         }
       ]
@@ -109,29 +109,29 @@
         {
           "about": "Pertemuan 1",
           "lesson": "Jaringan Komputer",
-          "place": "Udinus Gd. D.3.L",
-          "date": "Sabtu, 11 Mei 2019",
-          "time": "14:00 ~ 17:30"
+          "place": "Udinus Gd. D.3.D",
+          "date": "Rabu, 22 Mei 2019",
+          "time": "18:30 ~ 21:00"
         },
         {
           "about": "Pertemuan 2",
           "lesson": "Membangun Jaringan Virtual",
-          "place": "Udinus Gd. D.3.L",
-          "date": "Sabtu, 18 Mei 2019",
+          "place": "Udinus Gd. D.3.K",
+          "date": "Sabtu, 25 Mei 2019",
           "time": "14:00 ~ 17:30"
         },
         {
           "about": "Tugas 1",
           "lesson": "Cisco Packet Tracer",
-          "place": "Udinus Gd. D.3.L",
-          "date": "Sabtu, 11 Mei 2019",
-          "time": "14:00 ~ 17:30"
+          "place": "Udinus Gd. D.3.D",
+          "date": "Rabu, 22 Mei 2019",
+          "time": "18:30 ~ 21:00"
         },
         {
           "about": "Tugas Akhir",
           "lesson": "Membangun Jaringan Virtual",
-          "place": "Udinus Gd. D.3.L",
-          "date": "Sabtu, 18 Mei 2019",
+          "place": "Udinus Gd. D.3.K",
+          "date": "Sabtu, 25 Mei 2019",
           "time": "14:00 ~ 17:30"
         }
       ]
@@ -143,29 +143,29 @@
         {
           "about": "Pertemuan 1",
           "lesson": "MODELING, REMASTERING",
-          "place": "Udinus Gd. D.2.A",
-          "date": "Sabtu, 11 Mei 2019",
-          "time": "14:00 ~ 17:30"
+          "place": "Udinus Gd. D.2.D",
+          "date": "Jum'at, 24 Mei 2019",
+          "time": "18:30 ~ 21:00"
         },
         {
           "about": "Pertemuan 2",
           "lesson": "MODELING, REMASTERING",
-          "place": "Udinus Gd. D.2.A",
-          "date": "Sabtu, 18 Mei 2019",
+          "place": "Udinus Gd. D.2.D",
+          "date": "Sabtu, 25 Mei 2019",
           "time": "14:00 ~ 17:30"
         },
         {
           "about": "Tugas 1",
           "lesson": "MODELING, REMASTERING",
-          "place": "Udinus Gd. D.2.A",
-          "date": "Sabtu, 11 Mei 2019",
-          "time": "14:00 ~ 17:30"
+          "place": "Udinus Gd. D.2.D",
+          "date": "Jum'at, 24 Mei 2019",
+          "time": "18:30 ~ 21:00"
         },
         {
           "about": "Tugas Akhir",
           "lesson": "MODELING, REMASTERING",
-          "place": "Udinus Gd. D.2.A",
-          "date": "Sabtu, 18 Mei 2019",
+          "place": "Udinus Gd. D.2.D",
+          "date": "Sabtu, 25 Mei 2019",
           "time": "14:00 ~ 17:30"
         }
       ]
