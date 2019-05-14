@@ -1,5 +1,5 @@
 import React from 'react';
-import {Row, Col, Container, Button} from 'reactstrap';
+import {Row, Col, Container } from 'reactstrap';
 
 export default class Hero extends React.Component {
   render() {
@@ -22,23 +22,10 @@ export default class Hero extends React.Component {
             </p>
             <Row>
               <Col>
-                <Button
-                  color="primary"
-                  size="lg"
-                  block
-                  className="rounded-pill">
-                  Daftar
-                </Button>
+                <a className="btn btn-primary btn-lg rounded-pill btn-block" href="#daftar">Daftar</a>
               </Col>
               <Col>
-                <Button
-                  outline
-                  color="primary"
-                  size="lg"
-                  block
-                  className="rounded-pill">
-                  Lihat Kelas
-                </Button>
+                <a className="btn btn-outline-primary btn-lg rounded-pill btn-block" href="#kelas">Lihat Kelas</a>
               </Col>
             </Row>
           </Container>

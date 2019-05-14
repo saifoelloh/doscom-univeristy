@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import { Card, CardBody, CardText, CardTitle, Container } from 'reactstrap';
 import udin from '../assets/img/pemateri-01.png';
-import izza from '../assets/img/pemateri-02.png';
+import saipul from '../assets/img/pemateri-02.png';
 import aan from '../assets/img/pemateri-03.png';
 import restu from '../assets/img/pemateri-04.png';
 import alfin from '../assets/img/pemateri-05.png';
@@ -30,8 +30,8 @@ export default class Tentors extends React.Component {
       },
       {
         id: 1,
-        name: 'Muh. Izza Lutfi',
-        photo: izza,
+        name: 'Moh. Saifoelloh Noor',
+        photo: saipul,
         title: 'Anggota Devisi Programming',
         class: 'Kelas Web Lanjut',
       },
