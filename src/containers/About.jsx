@@ -26,7 +26,7 @@ export default class About extends React.Component {
         id: 1,
         icon: 'clock',
         first: 'Waktu Kegiaan',
-        second: '11 & 18 Mei 2019',
+        second: '22, 23, 24, & 25 Mei 2019',
         third: '2 Pertemuan & 1 Tugas Akhir',
       },
       {
