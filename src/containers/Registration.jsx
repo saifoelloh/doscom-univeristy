@@ -142,11 +142,13 @@ export default class Registration extends React.Component {
                     name="kelas"
                     onChange={this.handleChange}>
                     {this.props.data.map((value, idx) => {
-                      return (
-                        <option key={idx} value={value._id}>
-                          {value.nama}
-                        </option>
-                      );
+                      if (this.props.data[idx].jumlah > 0) {
+                        return (
+                          <option key={idx} value={value._id}>
+                            {value.nama}
+                          </option>
+                        );
+                      }
                     })}
                   </Input>
                 </FormGroup>

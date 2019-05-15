@@ -37,7 +37,7 @@ export default class App extends React.Component {
       },
       {
         about:
-          'Mempelajari code igniter sebuah framework bahasa pemrograman php yang menggunakan konsep MVC.',
+          'Mempelajari laravel sebuah framework bahasa pemrograman php yang menggunakan konsep MVC.',
       },
       {
         about:
